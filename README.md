@@ -1,3 +1,3 @@
 # hello-world
-我的第一个仓库
-GitHub的学习之旅
+exercise
+小黄的前端学习练手之旅
