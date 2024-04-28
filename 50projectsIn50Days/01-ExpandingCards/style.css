@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.body{
+    display: flex;
+    width: 90vw;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transition: all 2s ;
+}
+.card{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 0.5;
+    height: 100%;
+    border-radius: 50px;
+    margin: 10px;
+    text-align: left;
+    transition: all 2s ;
+}
+h3{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: #fff;
+    opacity: 0;
+    transition: all 2s ;
+}
+.active{
+    
+    flex: 5;
+}
+.active h3{
+    opacity: 1;
+}
